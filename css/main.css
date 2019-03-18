@@ -15,9 +15,6 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-section {
   background-image: url("https://source.unsplash.com/1600x900/?car");
   background-attachment: fixed;
   background-position: center;
@@ -131,6 +128,18 @@ section {
 
 .navigation a:hover {
   background: #00ABE5;
+}
+
+.button {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #00ABE5;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 @media all and (max-width: 800px) {
